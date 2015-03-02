@@ -1,0 +1,64 @@
+/*
+Theme Name:     Syntax 2.0
+Description:    Child theme of Syntax theme.
+Author:         nickbatson
+Template:       syntax
+Author URI:     http://www.nickbatsonmedia.com
+Github:         http://www.github.com/nickbatson
+Version:        1.0.0b
+License:        MIT Open Source License
+
+This is a child-theme using the Syntax WordPress theme, the original author of Syntax is Automattic
+http://automattic.com
+
+Made with <3 in NYC
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../syntax/style.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600);
+
+/* Typography Changes
+==============================*/
+body, button, input, select, textarea {
+    color: #111;
+    font-family: Georgia, Times New Roman, serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.entry-title a {
+    color: #111;
+    text-decoration: none;
+    font-family: 'Open Sans', Helvetica,sans-serif;
+    font-weight: 300;
+}
+
+/* Header Changes
+===========================*/
+.site-header {
+    background: none repeat scroll 0% 0% #F64747;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+
+#description {
+  align-content: center;
+  font-family: inherit;
+  color: #111;
+  font-size: 12px;
+  display: block;
+}
+
+/* Site Branding
+===========================*/
+.site-info {
+    padding: 0px 29.7px;
+    display: none;
+}
